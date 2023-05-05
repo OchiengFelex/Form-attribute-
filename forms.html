@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS OF INPUT TYPE</title>
+    <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+    <div class="main">
+    <h2>WELCOME TO OUR WEBSITE </h2>
+    <P>The most trusted sourse of information and latest trends in the technical world that is almos revolving at a neck-braking speed.</P>
+    <p>To keep-up with new technologies we provide you with the most sufficient data</p>
+    <p>All we request from your is your pesonal data according to the form bellow and stay updated.</p>
+</div>
+<div class="form1">
+    <form>
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="fname" value="Enter first name"><br><br>
+        <label for="second">Second name</label><br>
+        <input type="text" id="second" name="second name" value="Enter second name"><br><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname" value="Enter last name"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" value="Enter email"><br><br>
+
+        <label for="date-input">Date Input:</label>
+        <input type="date" id="date-input" name="date-input" min="2023-01-01" max="2023-12-31" required><br>
+        <label for="time-input">Time Input:</label>
+      <input type="time" id="time-input" name="time-input" min="09:00" max="17:00" required><br><br>
+
+      <h4>Please be patient with us</h4>
+      <p>Be true to the answer you provide</p><br>
+
+      <label for="fruit">Choose a fruit:</label>
+<select id="fruit" name="fruit" size="1">
+  <option value="Orange">Orange</option>
+  <option value="Mango">Mango</option>
+  <option value="Watermelone">Watermelone</option>
+  <option value="Banana">Banana</option>
+</select><br><br>
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars" size="1">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option><br>
+</select><br><br>
+<label for="browsers">provide your fevourite browser</label>
+<input list="browsers">
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist><br><br>
+
+oninput="x.value=x">
+1
+<input type="range"  id="a" name="a" value="50">
+100 
+<input type="number" id="b" name="b" value="50">
+<output name="x" for="a b"></output>
+<br><br>
+<h4>Provide additional information if need be</h4>
+<textarea name="aditinal" rows="10" cols="40">
+    Provide additional information.
+    </textarea><br><br>
+
+<input type="submit" value="Submit">
+
+    </form>
+</div>
+ </body>
+ </html>

@@ -1,0 +1,37 @@
+body {
+    padding: 0%;
+    margin: auto;
+
+}
+
+.main {
+    background-color: rgb(0, 128, 38);
+    padding: 2em;
+    margin: 2px;
+}
+
+.main h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main p {
+    color: aqua;
+}
+
+.form1 {
+    background-color: aqua;
+    justify-content: center;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.form1 form label {
+    color: black;
+    font-weight: bolder;
+}
+
+input {
+    background-color: chartreuse;
+    padding: 5px;
+}
